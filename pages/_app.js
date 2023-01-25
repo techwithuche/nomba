@@ -1,12 +1,25 @@
+import App from "next/app";
+import React from "react";
+import Layout from "../src/assets/Layout";
 import '../src/styles/bootstrap.css';
 import '../src/styles/main.css';
 
-function App({ Component, pageProps }) {
-  return (
-    
-      <Component {...pageProps} />
-  
-  );
+
+class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props;
+
+    return (
+      <>
+      
+        <Layout>
+        <Component {...pageProps}></Component>
+        </Layout>
+        
+        
+      </>
+    );
+  }
 }
 
-export default App;
+export default MyApp;
