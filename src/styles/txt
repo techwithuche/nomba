@@ -1,0 +1,28 @@
+.OrderSection_button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.OrderSection_button_primary {
+  width: 16em;
+  height: 4em;
+  background: #ffcc00;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OrderSection_button_secondary {
+  width: 16em;
+  height: 4em;
+  background: #ffff;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
