@@ -5,6 +5,8 @@ import Terminal from '../src/container/Terminal'
 import Payment from '../src/container/Payment'
 import Pos from '../src/container/POS'
 import Community from '../src/container/Community'
+import Store from '../src/container/Store'
+import Footer from '../src/container/Footer'
 
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
       <Terminal />
       <Payment />
       <Pos />
-      <Community/>
+      <Community />
+      <Store />
+      <Footer/>
     </>
   );
 }
